@@ -1,0 +1,287 @@
+/**	
+	Para USB - Prevención de Riscos Laborais 
+	Autor:	Miguel Ángel García Carnota
+	Email:	magarcia@ceg.es
+	Data:	27/07/2012
+		
+	Cores corporativos
+	VERDE:	#00694e
+	NARANXA:#ffc82e
+	AZUL:	#9eceeb
+**/
+		
+/** Estilos empregados **/
+/** Xerais **/
+body {
+	font: 75% "Tahoma", sans-serif;
+	margin: 50px;
+	color: #00694e;
+	background-color: #efefef;
+}
+a {
+	cursor: hand;
+	text-decoration: none;
+}
+ul { 
+	list-style: none;
+}
+li {
+	margin: -10px -10px 15px -10px;
+}
+h1 {
+	color: #00694e;
+	font-weight: bold;
+}
+h2,h3 {
+	color: #ffc82e;
+}
+
+/** IDs **/
+#navegacion {
+	padding: 5px 0px 5px 20px;
+	font-weight: bold;
+}
+#navegacion-inicio {
+	background: url('blueprint/plugins/link-icons/icons/inicio_small.png') no-repeat center left;
+	padding: 2px 0px 2px 20px;
+}
+#corpo-principal {
+	min-height: 400px;
+	background-color: white;
+	padding: 15px;
+	border: 1px solid #E6E6E6;
+}
+#pre-cabeceira {
+	margin: -50px 0px 0px 0px;
+}
+#cabeceira-xornada {
+	background-color: white;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+#imaxe-inicio {
+	width: 16px;
+	vertical-align: text-bottom;
+}
+#taboa-contacto {
+	background-color: white;
+	margin: -10px 10px 0px 10px;
+	padding: 7px 5px 2px 5px;
+	border: 1px solid #D8D8D8;
+}
+#Imagen-CEG {
+	height: 25%;
+	width: 25%;
+	padding: 10px;
+}
+/** SOMBRA **/
+#elemento_menu {
+	padding: 8px;
+	display: block;
+	background-color: white;
+	color: #00694e;
+	font-weight: bold;
+}
+/** SOMBRA **/
+#link { 
+	padding: 8px;
+	border: 1px solid #D8D8D8;
+	display: block;
+	background-color: white;
+	color: #00694e;
+	cursor: hand;
+	font-weight: bold;
+	/** Para acadar o sombreado das caixas **/
+	/**
+	-moz-box-shadow: 3px 3px 4px #111;
+	-webkit-box-shadow: 3px 3px 4px #111;
+	box-shadow: 3px 3px 4px #aaa;**/
+	/* IE 8 */
+	/**-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa')";**/
+	/* IE 5.5 - 7 */
+	/**filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa');**/
+}
+#link:hover { 
+	background-color: #00694e;
+	color: #ffc82e;
+	border: 1px solid #00694e;
+}
+#logo_cabecera {
+	height: 60%;
+	width: 60%;
+	padding: 10px 15px 10px 15px;
+}
+#logo_pe_esquerda {
+	float: left;
+	margin-top: -30px;
+	padding: 5px;
+}
+#logo_pe_dereita {
+	float: right;
+	margin-top: -30px;
+	padding: 5px;
+}
+#logotipo-iso {
+	padding: 5px 0px 5px 15px;
+}
+#cabecera {
+	background-color: #00694e;
+	color: white;
+	padding: 10px 15px 10px 15px;
+	text-align: center;
+	font-weight: bold;
+}
+#Titulo_Cabecera {
+	background-color: white;
+	font-weight: bold;
+	font-size: 24px;
+	color: #00694e;
+	padding: 15px 20px 15px 20px;
+	text-align: right;
+	height: 100%;
+}
+#Titulo_Contido {
+	background-color: #00694e;
+	color: white;
+	font-weight: bold;
+	font-size: 22px; /** 32px **/
+	padding: 10px;
+	margin-bottom: 15px;
+}
+#SubTitulo_Contido {
+	background-color: #ffc82e;
+	color: white;
+	font-weight: bold;
+	font-size: 18px; /** 32px **/
+	padding: 10px;
+	margin: -10px 0px 15px 0px;
+}
+#Pe_Contido {
+	font-weight: normal;
+	font-size: 11px;
+	color: #00694e;
+	background-color: #E5ECF9;
+	margin: 30px 0px 10px 0px;
+	padding: 10px;
+}
+#Data_Contido {
+	font-weight: normal;
+	font-size: 11px;
+	color: #00694e;
+	background-color: #E5ECF9;
+	padding: 10px;
+	margin: -10px 0px 30px 0px; 
+	height: 10px;
+}
+#Encabezado_Contido {
+	background-color: #ffc82e;
+	color: white;
+	font-size: 20px;
+	padding: 5px 5px 5px 10px;
+	margin: 0px 50px 15px 0px;
+}
+#Post_Pe {
+	height: 20px;
+}
+#Texto_Post_Pe {
+	padding: 3px 0px 5px 20px;
+	color: white;
+	background-color: #00694e;
+}
+#imaxe-documento-normativa {
+	width: 75px !important;
+}
+
+/** CLASES **/
+.container {
+	background-color: #efefef;
+}
+.taboa-documento {
+	border: 1px solid #D5DCE9;
+	padding: 5px;
+	background-color: white;
+}
+.taboa-documento td {
+	padding: 5px;
+}
+.imaxe-documento-taboa {
+	width: 125px;
+}
+.taboa-encabezado {
+	font-weight: bold;
+	background: #D5DCE9;
+}
+.taboa-fila-par {
+	background-color: #E5ECF9;
+}
+.taboa-fila-impar {
+	background-color: white !important;
+}
+.ligazon-contido {
+	background: url('blueprint/plugins/link-icons/icons/external_azul.png') no-repeat center right #E5ECF9;
+	border: 1px solid #D5DCE9;
+	padding: 2px 15px 2px 2px;
+	font-weight: bold;
+}
+.ligazon-contido:hover {
+	border: 1px solid #A5ACE9 !important;
+}
+.etiqueta-cabecera-menu {
+	background-color: #00694e;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.panel {
+	background-color: white;
+	margin: -10px 10px 0px 10px;
+	border: 1px solid #D8D8D8;
+}
+.pdf {
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.imagen_menu {
+	vertical-align: middle;
+	padding-right: 5px;
+	display: inline-block;
+}
+.texto_menu {
+	max-width: 170px;
+	min-height: 24px;
+}
+.enlace_externo {
+	background: url('../css/blueprint/plugins/link-icons/icons/external.png') no-repeat left;
+}
+.informacion {
+	background: url('../css/blueprint/plugins/link-icons/icons/info.png') no-repeat left;
+}
+.activo {
+	background-color: #ffc82e !important;
+	border: 1px solid #00694e !important;
+	vertical-align: middle !important;
+}
+.sombra {
+	-moz-box-shadow: 3px 3px 4px #111;
+	-webkit-box-shadow: 3px 3px 4px #111;
+	box-shadow: 3px 3px 4px #aaa;
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa')";
+	/* IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa');
+}
+.contido {
+	padding: 10px;
+	text-align: justify;
+}
+.subdivision {
+	/**background-color: #ffc82e;**/
+	font-weight: bold;
+	color: #00694e;
+	border: 1px solid #D8D8D8;
+}
+.subdivision:hover {
+	background-color: #ffc82e;
+	border: 1px solid #00694e;
+}
